@@ -1,0 +1,92 @@
+.footer__container{
+    display: flex;
+    background-color: rgb(240, 203, 158);
+    flex-wrap: wrap;
+}
+
+.footer__left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;  
+}
+
+.footer__center{
+    flex: 1;
+    padding: 20px;
+}
+
+.footer__right{
+    flex: 1;
+    padding: 20px;
+}
+
+.footer__title{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(99, 68, 68);
+    margin-bottom: 20px;
+}
+
+.footer__description{
+    margin-bottom: 15px;
+}
+
+.social__media__icons{
+    display: flex;
+}
+
+.facebook__icons, .instagram__icons, .twitter__icons, .pinterest__icons{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.facebook__icons{
+    background-color: rgb(41, 107, 228);
+}
+
+.instagram__icons{
+    background-color: rgb(226, 43, 104);
+}
+
+.twitter__icons{
+    background-color: rgb(77, 136, 204);
+}
+
+.pinterest__icons{
+    background-color: rgb(206, 30, 30);
+}
+
+.footer__list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__list__items{
+    width: 50%;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.footer__list__items:hover{
+    text-decoration: underline;
+}
+
+.footer__contact__items > div{
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.footer__contact__items > div > p{
+    margin-left: 6px;
+}
+
+

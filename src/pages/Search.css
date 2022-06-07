@@ -1,0 +1,16 @@
+.search__found{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.search__found__title1{
+    margin: 15px 0px 10px 10px;
+    font-size: 30px;
+}
+
+.search__found__title2{
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}

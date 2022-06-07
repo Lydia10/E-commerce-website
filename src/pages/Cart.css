@@ -1,0 +1,135 @@
+.cart__container{
+    background-color: white;
+    padding-top: 1em;
+}
+
+.cart__title{
+    font-weight: 400;
+    text-align: center;
+}
+
+.cart__wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5em;
+    flex-wrap: wrap;
+}
+
+.cart__info{
+    flex: 3;
+}
+
+.cart__product{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+}
+
+.cart__product__details{
+    display: flex;
+    padding: 40px;
+    flex-wrap: wrap;
+    background-color: white;
+    flex: 2;
+}
+
+.cart__product__image{
+    width: 250px;
+    height: 280px;
+    object-fit: cover;
+}
+
+.info__details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 10px;
+}
+
+.info__id{
+    white-space: nowrap;
+}
+
+.change__quantity__container{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.change__quantity{
+    display: flex;
+    align-items: center;
+}
+
+.product__quantity{
+    margin: 10px;
+    font-size: 22px;
+}
+
+.remove__product__button{
+    margin-top: 15px;
+    border-radius: 6%;
+    padding: 8px;
+    background-color: rgb(196, 116, 116);
+    font-size: 15px;
+    border: 1px;
+    cursor: pointer;
+}
+
+.cart__summary{
+    flex: 1;
+    border: 0.6px solid lightgray;
+    border-radius: 10px;
+    padding: 2em;
+    height: 55vh;
+    align-items: center;
+    margin: 0.5em 0.5em;
+}
+
+.summary__item{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5em 0;
+}
+
+.checkout__button{
+    width: 100%;
+    background-color: rgb(206, 190, 50);
+    padding: 0.8em;
+    font-size: 1.2em;
+    color: rgb(7, 7, 7);
+    border-radius: 5px;
+    margin-top: 2em;
+    border: none;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 950px) {
+    .info__details > span{
+      margin-top: 13px;
+    }
+    .cart__product{
+      flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .checkout__button{
+      font-size: 1em;
+    }
+    .cart__title{
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .cart__product__details{
+        justify-content: center;
+    }
+    .cart__wrapper{
+        justify-content: center;
+    }
+    
+}

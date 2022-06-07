@@ -1,0 +1,64 @@
+.sign__in__container{
+    width: 100vw;
+    height: 100vh;
+    background: 
+    linear-gradient(rgb(167, 162, 162, 0.6), rgb(167, 162, 162, 0.6)),
+    url('https://images.unsplash.com/photo-1607083207118-f60f4fff8efe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign__in__wrapper{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.sign__in__title{
+    margin-bottom: 20px;
+}
+
+.sign__in__form{
+    display: flex;
+    flex-direction: column;
+}
+
+.sign__in__form > input, .sign__in__button{
+    margin: 10px 0px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.sign__in__button{
+    background-color: rgb(214, 195, 25);
+    padding: 15px;
+    font-weight: 600;
+}
+
+.sign__in__links{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sign__in__links a{
+    margin: 10px;
+}
+
+.error{
+    color: red;
+}
+
+.register__link{
+    color: black;
+}

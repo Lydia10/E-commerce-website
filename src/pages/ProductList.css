@@ -1,0 +1,50 @@
+.filter__container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.filter__wrapper{
+    margin-bottom: 10px;
+}
+
+.filter__category{
+    margin: 20px ;
+}
+
+.filter__label{
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.select{
+    padding: 2px;
+    margin-right: 20px;
+    font-size: 15px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+@media only screen and (max-width: 450px){
+    .filter__label{
+        font-size: 15px;
+    }
+    .filter__category{
+        font-size: 25px;
+    } 
+    .select{
+        font-size: 15px;
+    }   
+}
+
+@media only screen and (max-width: 300px){
+    .filter__label{
+        font-size: 12px;
+    }
+    .select{
+        font-size: 12px;
+    }  
+}
+

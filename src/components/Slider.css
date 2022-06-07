@@ -1,0 +1,89 @@
+.slider__container{
+    position: relative;
+    display: flex;
+}
+
+.image__container{
+    width: 100%; 
+}
+
+.slider__image{
+    height: 700px;
+    object-fit: cover;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+.slider__button{
+    color: rgb(248, 246, 248);;
+    font-weight: 1000;
+    border: none;
+    background-color: rgb(131, 11, 11);
+    cursor: pointer;
+    padding: 0.7em;
+    border-radius: 10px;
+    font-size: 1.4vw;
+}
+
+.slider__info{
+    color: rgb(252, 252, 252);
+    position: absolute;
+    bottom: 5em;
+    right: 4.5em;
+    font-size: 2vw;
+    font-weight: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.slider__text{
+    margin-top: 1em;
+    margin-bottom: 1.3em;
+}
+
+.arrow1, .arrow2{
+    background-color: rgb(235, 232, 223);
+    padding: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.arrow1{
+    right: 20px;
+    user-select: none;
+}
+
+.arrow2{
+    left: 20px;
+    user-select: none;
+}
+
+.arrow1:hover, .arrow2:hover{
+    background-color: rgb(77, 73, 73);
+}
+
+@media only screen and (max-width: 450px){
+    .slider__info{
+        font-size: 4.5vw;
+        bottom: 5em;
+        right: 1em;
+    }
+    .slider__button{
+        font-size: 3.5vw;
+    }
+}
+  

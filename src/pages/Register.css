@@ -1,0 +1,55 @@
+.register__container{
+    width: 100vw;
+    height: 100vh;
+    background: 
+    linear-gradient(rgb(167, 162, 162, 0.6), rgb(167, 162, 162, 0.6)),
+    url('https://images.unsplash.com/photo-1576072446584-4955dfe17b86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fHNob3BwaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register__wrapper{
+    width: 340px;
+    background-color: white;
+    padding: 30px;
+}
+
+.register__title{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.register__form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.register__form > input{
+    margin: 20px 10px 0px 0px;
+    padding: 15px; 
+    font-size: 18px;
+}
+
+.register__agreement{
+    font-size: 15px;
+    margin: 20px 0px;
+}
+
+.register__button{
+    width: 70%;
+    border: none;
+    padding: 15px 20px;
+    background-color: rgb(214, 195, 25);
+    margin: auto;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.register__form > p{
+    color: red;
+    padding-top: 15px;
+}

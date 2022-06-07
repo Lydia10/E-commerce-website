@@ -1,0 +1,12 @@
+.announce{
+    height: 2.5em;
+    background-color: brown;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    width:100%;
+    font-size: 1em;
+}
+
